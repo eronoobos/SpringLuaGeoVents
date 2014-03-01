@@ -46,7 +46,7 @@ function drawPatches()
     gl.PolygonOffset(-25, -2)
     gl.Culling(GL.BACK)
     gl.DepthTest(true)
-	gl.Texture("LuaUI/Images/LuaGeoVents/geo.png")
+	gl.Texture("maps/geo.png")
 	gl.Color(1, 1, 1) -- fix color from other widgets
 	
 	for i = 1, #gVents do
